@@ -7,7 +7,6 @@ import pandas as pd
 csv_files = glob.glob('*.{}'.format('csv'))
 
 
-
 new = []
 # iterate through the csv file and concatenate it
 for f in csv_files:
